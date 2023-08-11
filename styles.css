@@ -1,0 +1,107 @@
+
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+
+.top-navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.top-navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.top-navbar li {
+  display: inline;
+}
+
+.top-navbar a {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+.site-header {
+  text-align: center;
+  margin: 20px 0;
+}
+
+
+.recipes-list {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.recipes-list h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.recipes-list li {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.recipes-list img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+
+.search-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.search-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-form label {
+  margin-bottom: 5px;
+}
+
+.search-form input,
+.search-form select {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.search-form button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+
+.about {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.about h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about p {
+  text-align: justify;
+}
+
